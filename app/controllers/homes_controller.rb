@@ -1,4 +1,4 @@
 class HomesController < ApplicationController
-  def to
+  def top
   end
 end
