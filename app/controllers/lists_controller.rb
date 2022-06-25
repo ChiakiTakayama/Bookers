@@ -1,5 +1,5 @@
 class ListsController < ApplicationController
-  
+  # ルーティングはresourcesメソッドを使う
   def new
     @list = List.new
   end
