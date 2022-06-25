@@ -4,7 +4,7 @@ class ListsController < ApplicationController
     @list = List.new
   end
   
-  def cleate
+  def create
     list = List.new(list_params)
     list.save
     redirect_to '/top'
